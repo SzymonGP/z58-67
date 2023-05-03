@@ -1,0 +1,68 @@
+A
+ {
+ font-size:24pt;
+ text-decoration:none;
+ }
+A:link
+ {
+ color:navy;
+ }
+A:visited
+ {
+ color:green;
+ }
+A:hover
+ {
+ color:red;
+ text-decoration:underline;
+ }
+
+ 
+ 
+A.maly
+ {
+ font-size: 12pt;
+ }
+A.maly:link
+ {
+ color:silver;;
+ }
+A.maly:visited
+ {
+ color:yellow;
+ }
+A.maly:hover
+ {
+ color:black;
+ text-decoration:none;
+ }
+A:active
+ {
+ color:silver;
+ }
+
+
+
+/*Grotha Szymon, klasa 1P grupa 2*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zadanie 61 - Grotha</title>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="zadanie61_css_grot.css">
+	</head>
+<body>
+<ul>
+<li><a href="http://www.zse.gda.pl" class="maly">ZSE</a></li>
+<li><a href="http://onet.pl">Portal Onet.pl</a></li>
+<li><a href="http://helion.pl" class="maly">Wydawnictwo Helion</a></li>
+<li><a href="https://www.kuratorium.gda.pl/">Kuratorium </a></li>
+<li><a href="https://www.gov.pl/">GOV</a></li>
+<li><a href="https://www.microsoft.com/pl-pl" class="maly">Microsoft</a></li>
+<li><a href="https://github.com/" class="maly">GitHub</a></li>
+</ul>
+	
+</body>
+</html>
+<!--Grotha Szymon, klasa 1P grupa 2 -->

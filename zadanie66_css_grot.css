@@ -1,0 +1,47 @@
+OL
+{
+Font-size: 25px;
+}
+p#firstline
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p#firstline:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+ 
+ p#beforeafter:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+p#beforeafter:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+
+
+p#firsletter
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p#firsletter:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+
+
+
+
+/*Grotha Szymon, klasa 1P grupa 2*/

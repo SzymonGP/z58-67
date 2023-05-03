@@ -1,0 +1,25 @@
+body 
+{
+background-color: silver;	
+	
+}
+
+p
+{
+font-size: 7mm;
+color: rgb(144,238,144);
+}
+
+p:lang(pl)
+{
+font-size: 8mm;
+color: rgb(136, 8, 8);
+}
+
+p:lang(en)
+{
+font-size: 12mm;
+color: rgb(255, 215, 0);
+}
+
+/*Grotha Szymon, klasa 1P grupa 2*/

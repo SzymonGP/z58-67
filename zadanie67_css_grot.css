@@ -1,0 +1,49 @@
+p#G:first-letter
+ {
+ color:rgb(50, 205, 50);
+ font-size:113pt;
+ }
+ p#G
+  {
+ color:rgb(255,165,0);
+ font-size:21pt;
+ }
+ p#S:first-letter
+ {
+ color:rgb(255,0,0);
+ font-size:113pt;
+ }
+ p#S
+ {
+ color:rgb(255,165,0);
+ font-size:19pt;
+ }
+
+ h1:first-letter
+ {
+ color:rgb(192,192,192);
+ font-size:113pt;
+ }
+
+ h1
+ {
+ color:rgb(94,0,135);
+ font-size:60pt;
+ }
+
+p#combo:first-line
+ {
+ color:rgb(255,0,0);
+ font-size:19pt;
+ }
+ p#combo:first-letter
+ {
+ color:rgb(255,0,0);
+ font-size:113pt;;
+ }
+ p#combo
+ {
+ color:rgb(0,0,128);
+ font-size:30pt;
+ }
+/*Grotha Szymon, klasa 1P grupa 2*/

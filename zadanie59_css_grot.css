@@ -1,0 +1,35 @@
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+p 
+{
+color: red;
+}
+
+div
+{
+color: red;
+background-color: lightgray;
+height: 270px;
+width: 400px;
+font-size: 2cm;
+}
+
+/*	text-decoration: none; - nie zmienia wyglądu tekstu
+	text-decoration: underline; - podkreśla tekst
+	Grotha Szymon, klasa 1P grupa */

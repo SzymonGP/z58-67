@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+			<meta charset="utf-8">
+			<style>
+			li
+			{
+			font-family: Arial;
+			}
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		}
+			</style>
+	</head>
+		<body>
+<h1> Temat:Teoria dotycząca opisującą pseudoklasy.
+
+</h1>
+
+	
+	<ol type=1>
+
+	</UL>
+		
+		<h1>  <li> Co to są pseudoklasy?</h1> </li>
+	<ul type=circle>
+		<li>CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych
+elementów dokumentu są to Pseudoklasy.
+</li>
+
+	</UL>
+	
+			<h1>  <li> Uwaga dotycząca dwukropka. </h1> </li>
+	<ul>
+		<li>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy
+selektorem a nazwą klasy.</li>
+
+	</UL>
+			<h1>  <li>Tabela opisującą pseudoklasy.</h1> </li>
+	<table>
+   <tr>
+      <td>A:link</td> <td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone.</td>
+   </tr>
+   <tr>
+      <td>A:visited</td> <td>odpowiada za formatowanie hiperłącza już odwiedzonego</td> 
+   </tr>
+   <tr>
+      <td>A:hover</td> <td>zmiany pewnych elementów po najechaniu na nie urządzeniem
+wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor
+lub element blokowy DIV.</td> 
+   </tr>
+    <tr>
+      <td>A:active</td> <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na
+niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego
+zwolnieniem (odsyłacz aktywny kliknięty). </td> 
+   </tr>
+     <tr>
+      <td>A:focus</td> <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był
+formatowany innym kolorem. Odsyłacz posiadający tzw fokuszaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką
+reakcję przeglądarki, jakby dany odsyłacz został kliknięty</td> 
+   </tr>
+   <tr>
+      <td>:lang</td> <td>formatowanie wielojęzykowych dokumentów.</td> 
+   </tr>
+   <tr>
+      <td>:first-child</td> <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego
+elementu. </td> 
+   </tr>
+</table>
+
+			<h1>  <li> Zastosowanie pseudoklasy:active.</h1> </li>
+<ul>
+	<li> można używać jako uzupełnienia definicji odnośników</li>
+		<li> jako elementu poprawiającego czytelność formularzy.</li>
+</ul>
+
+			<h1>  <li>Przykłady użycia pseudoklas</h1> </li>
+<ul>	
+		<li>Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem<br>
+A. Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu<br>
+taki odnośnik będzie miał kolor zielony.<br><br>
+
+		A:link<br>
+ {<br>
+ color:red;<br>
+ }<br>
+A:visited<br>
+ {<br>
+ color:green;<br>
+ }<br><br><br>
+</li>
+		<li>Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.<br><br>
+		A /* Definicja odsyłacza podstawowego*/<br>
+ {<br>
+ font-size:12pt;<br>
+ text-decoration:none;<br>
+ }<br>
+A:link<br>
+ {<br>
+ color:navy;<br>
+ }<br>
+A:visited<br>
+ {<br>
+ color:green;<br>
+ }<br>
+A:hover<br>
+ {<br>
+ color:red;<br>
+ text-decoration:underline;<br>
+ }<br><br><br></li>
+		<li> Zastosowanie :focus<br><br>
+		A:focus<br>
+ {<br>
+ color:brown;<br>
+ }
+</li>
+	
+	
+		<ol></font>
+
+	</body>
+	</html>
+		
+		
+
+		
+		
+		

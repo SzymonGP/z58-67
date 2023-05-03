@@ -1,0 +1,123 @@
+OL
+{
+Font-size: 25px;
+}
+p#firstline
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p#firstline:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+ 
+ p#beforeafter:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+p#beforeafter:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+
+
+p#firsletter
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p#firsletter:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+
+
+
+
+/*Grotha Szymon, klasa 1P grupa 2*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zadanie 66 - Grotha</title>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="zadanie66_css_grot.css">
+	</head>
+<body>
+		<OL>
+		<li>Pseudoelement :first-line obejmuje formatowaniem całą pierwszą linię.<br> 
+
+p<br> 
+ {<br> 
+ color:navy;<br> 
+ font-size:12pt;<br> 
+ }<br> 
+p:first-line<br> 
+ {<br> 
+ color:red;<br> 
+ font-size:20pt;<br> 
+ font-weight:bold;<br> 
+ }<br> 
+
+		<p id="firstline">
+		Pierwsza linia<br> 
+		Druga linia<br> 
+		Trzecia linia<br> </p> 
+		</li>
+		
+		<li>Pseudoelementy: :after oraz :before służą do umieszczania tekstu przed i za formatowanym elementem strony.<br>
+		p:before<br>
+ {<br>
+ content:"TO SĄ ĆWICZENIA";<br>
+ font-size:15pt;<br>
+ font-style:italic;<br>
+ font-weight:bold;<br>
+ }<br>
+p:after<br>
+ {<br>
+ content:"AUTOR Król Lew";<br>
+ font-size:15pt;<br>
+ font-style:italic;<br>
+ font-weight:bold;<br>
+ }<br>
+
+		
+		
+		
+		
+<p id="beforeafter">	 <br> Pierwsza linia<br> 
+											Druga linia<br> 
+											Trzecia linia<br> </p> 
+		</li>
+		
+				<li>Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku tekstu. <br> 
+p<br> 
+ {<br> 
+ color:navy;<br> 
+ font-size:30pt;<br> 
+ }<br> 
+p:first-letter<br> 
+ {<br> 
+ color:red;<br> 
+ font-size:100pt;<br> 
+ }<br> 
+
+
+		<p id="firsletter">
+		Pierwsza linia<br> 
+		Druga linia<br> 
+		Trzecia linia<br> </p> 
+		</li>
+</body>
+</html>
+<!--Grotha Szymon, klasa 1P grupa 2 -->

@@ -1,0 +1,33 @@
+div#blok1_grot{
+width:611px;
+background-color: lightgreen;
+}
+div#blok1_grot:hover {
+font-size:20mm;
+background-color: red;
+}
+
+
+div#blok2_grot{
+width:611px;
+background-color: lightgreen;
+}
+div#blok2_grot:hover {
+font-size:20mm;
+background-color:silver;
+}
+
+
+
+div#blok3_grot{
+width:611px;
+background-color: lightgreen;
+}
+div#blok3_grot:hover {
+font-size:20mm;
+background-color:lightblue;
+}
+
+
+/* :hover - pozwala nadać określone atrybuty formatowania dla elementów, nad którymi znajduje się kursor myszki
+ Grotha Szymon, klasa 1P grupa 2*/
