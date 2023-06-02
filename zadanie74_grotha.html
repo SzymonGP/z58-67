@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+			<meta charset="utf-8">
+			<style>
+			li
+			{
+			font-family: Arial;
+			}
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		}
+			</style>
+	</head>
+		<body>
+<h1> Temat:Tła, gradienty oraz ich parametry, teoria.
+
+</h1>
+
+	
+
+	<table>
+   <tr>
+      <td>Kolor tła</td>	 <td>Zmienia kolor tła: <br>selektor {background-color: kolor;}<br> body {background-color: red;}</td>
+   </tr>
+   <tr>
+      <td>Tło Obrazkowe</td> <td>Wstawia obraz jako tło:<br>	selektor {background-image: url(adres);} <br>
+background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");</td>
+   </tr>
+   <tr>
+      <td>Powtarzanie tła</td>	 <td>Powwtarza obrazek wstawiony jako tło: <br>  selektor {background-repeat: powtarzanie;}<br> 
+	  Jako powtarzanie możemy wpisać:
+	 <UL>
+	 <li>repeat - powtarzanie tła w obu kierunkach (domyślnie) </li>
+	 <li>repeat-x - powtarzanie tła tylko w kierunku poziomym </li>
+	 <li>repeat-y - powtarzanie tła tylko w kierunku pionowym </li>
+	 <li>no-repeat - brak powtarzania tła (zostanie wyświetlone jako pojedynczy obrazek) </li>
+	 </UL>selektor {background-repeat: repeat;} </td>
+   </tr>
+   <tr>
+      <td>Pozycja tła</td>	 <td>Wyznacza miejsce tła<br>  selektor {background-position: pozycja;}
+	  <UL>
+	  	 <li>"center" - obrazek na środku (w centrum)</li>
+		 <li>"left" - obrazek po lewej</li>
+		 <li>"right" - obrazek po prawej </li>
+		 <li>"top" - obrazek na górze </li>
+		 <li>"bottom" - obrazek na dole </li>
+		 <li>"left top" - lewy-górny róg </li>
+		 <li>"left bottom" - lewy-dolny róg </li>
+		 <li>"right top" - prawy-górny róg </li>
+		 <li>"right bottom" - prawy-dolny róg </li>
+
+	  </UL>
+		selektor {background-position: center;}
+	  </td>
+   </tr>
+   <tr>
+      <td>Zaczepienie tła </td>	 <td>Domyślnie tło obrazkowe przesuwa się wraz z przewijaną stroną. Poleceniem tym można
+sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony.<br> selektor {background-attachment: zaczepienie;}
+	  
+	  <UL>
+	  	 <li>"scroll" - przewijanie tła (domyślnie)
+</li>
+		  <li>"fixed" - tło nieruchome</li>
+
+		  </UL> selektor {background-attachment: fixed;}</td>
+   </tr>
+   <tr>
+      <td>Łączenie atrybutów tła</td>	 <td>Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące tła.
+<br>  selektor {background: wartości atrybutów;} <BR>p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll center;}
+
+</td>
+   </tr>
+   <tr>
+      <td>Gradient liniowy </td>	 <td>Gradient to wypełnienie tłem płynnym przejściu kilku kolorów z jednej stony na drugą.
+<br>selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) } <br> Paramtery:
+	  <UL>
+		 <li>to top - przejście kolorów nastąpi pionowo z dołu do góry (odpowiednik 0deg) </li>
+		 <li>to right top - ukośnie z lewego-dolnego do prawego-górnego narożnika </li>
+		 <li>to right - poziomo z lewej do prawej strony (odpowiednik 90deg) </li>
+		 <li>to right bottom - ukośnie z lewego-górnego do prawego-dolnego narożnika </li>
+		 <li>to bottom - pionowo z górny do dołu (odpowiednik 180deg - domyślnie) </li>
+		 <li>to left bottom - ukośnie z prawego-górnego do lewego-dolnego narożnika </li>
+		 <li>to left - poziomo z prawej do lewej strony (odpowiednik 270deg) </li>
+		 <li>to left top - ukośnie z prawego-dolnego do lewego-górnego narożnika </li>
+		 <li>kąt - liczony zgodnie z ruchem wskazówek zegara
+			z wartością:<br>
+			0deg skierowaną pionową w górę,<br>
+			180deg - pionowo w dół </li><br>
+	  </UL>
+	  background: linear-gradient(to bottom, black 0%, white 100%)
+</td>
+   </tr>
+   <tr>
+      <td>Gradient promienisty</td>	 <td>Gradient promienisty to tło o płynnym przejściem kilku kolorów, wywołując efekt
+trójwymiarowej kuli lub oświetlenia latarki.<br>selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2
+odległość2...) }<br> Kształty:
+		<UL>
+		 <li>circle - okrąg (domyślnie gdy jako rozmiar podano pojedynczy promień, określony w
+jednostkach długości, a nie w procentach) </li>
+		<li>ellipse - elipsa </li>
+	  </UL>
+Parametry:
+		<UL>
+		<li>closest-side - gradient będzie się rozchodził do najbliższej krawędzi elementu </li>
+		<li>farthest-side - do najdalszej krawędzi </li>
+		<li>closest-corner - do najbliższego narożnika </li>
+		<li>farthest-corner - do najdalszego narożnika (domyślnie)</li>
+
+	  </UL>
+	  radial-gradient(closest-side at 25% 75%, white, black)<br>
+	  radial-gradient(at 50% 110%, lightskyblue 40%, fuchsia, purple, blue, lime, yellow, orange,
+red, lightskyblue 60%)<br>
+radial-gradient(ellipse 33% 66% at right top, white, red 75%, black)
+</td>
+   </tr>
+ 
+	</body>
+	</html>
+		
+		
+
+		
+		
+		

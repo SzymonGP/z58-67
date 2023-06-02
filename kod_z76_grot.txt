@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zadanie 75 - Grotha</title>
+			<meta charset="utf-8" />
+			
+<style>
+ table {
+ border: 7px black solid;
+ color: blue;
+ font-size: 30px;
+ }
+ td{
+ border: 5px red solid;
+ }
+</style>
+	</head>
+<table>
+	<tr>
+      <td style="background-color:red;">Komórka 1-Grotha 1P</td>	 <td style="background-color:purple;">Komórka 2-Grotha 1P</td>
+   </tr>
+   <tr>
+      <td style="background-color:gray;">Komórka 3-Grotha 1P</td>	 <td style="background-color:teal;">Komórka 4-Grotha 1P</td>
+   </tr>
+
+</table>
+</body>
+</html>
+<!--Grotha Szymon, klasa 1P grupa 2 --><!DOCTYPE html>
+<html>
+	<head>
+		<title>zadanie 75 - Grotha</title>
+			<meta charset="utf-8" />
+			
+<style>
+ table {
+ border: 7px black solid;
+ color: blue;
+ font-size: 30px;
+ }
+ td{
+ border: 5px red solid;
+ }
+</style>
+	</head>
+<table>
+	<tr>
+      <td style="background-color:red;">Komórka 1-Grotha 1P</td>	 <td style="background-color:purple;">Komórka 2-Grotha 1P</td>
+   </tr>
+   <tr>
+      <td style="background-color:gray;">Komórka 3-Grotha 1P</td>	 <td style="background-color:teal;">Komórka 4-Grotha 1P</td>
+   </tr>
+
+</table>
+</body>
+</html>
+<!--Grotha Szymon, klasa 1P grupa 2 -->

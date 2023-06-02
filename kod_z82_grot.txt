@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zadanie 82 Szymon Grotha</title>
+			<meta charset="utf-8" />
+			<style>
+			body 
+			{
+			margin: 0px;
+			 border: 0px;
+ 			 padding: 0px;
+			 background-color:lightgreen;			
+			}
+			
+			p.bez
+			{
+			 position: absolute; left: 80px; top: 150px;
+			 font-size: 71pt;
+ 			font-weight: bold;
+			 color: navy;
+			}
+			
+			p.cien_grot
+			{
+			 position: absolute; left: 75px; top: 158px;
+			 font-size: 71pt;
+ 			font-weight: bold;
+			 color: lightblue;
+			}
+
+			
+			</style>
+	</head>
+<body>
+
+ <p class="cien_grot">Szymon Grotha</p>
+ <p class="bez">Szymon Grotha</p>
+
+
+
+
+</body>
+</html>
+<!--Grotha Szymon, klasa 1P grupa 2 -->
