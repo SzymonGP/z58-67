@@ -39,6 +39,7 @@ padding: 0px;
 background-color:#FFD580;
 background-image:url(logo_duze_Grotha.png);
 background-repeat:no-repeat;
+height:170px;
 font-size:55pt;
 background-position: top right;
 font-family:Arial;
